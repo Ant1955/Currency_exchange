@@ -44,7 +44,7 @@ while True:
       print("Пожалуйста, выберите действие")
 while True:
     try:
-      currency = input("введите код валюты или название: ")
+      currency = input("введите код валюты или название: ").lower()
       exch = None
       count_row = 0
       for i in range(imax):
